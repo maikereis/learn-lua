@@ -1,6 +1,6 @@
 local ShapeFactory = {}
 
-function ShapeFactory.createShape(shapeType, dimension)
+function ShapeFactory.createShape(shapeType, dimensions)
   if shapeType == "circle" then
     local circle = {
       radius = dimensions.radius,
